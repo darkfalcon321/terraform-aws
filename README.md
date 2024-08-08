@@ -2,6 +2,11 @@
 
 This project outlines how terraform is used to deploy Cloud resources; particularly AWS. The instance would have a script to be run upon instance initialization in `userdata.tpl`. The instance type can be changed depending upon the AMI in `datasources.tf`. Some of the instructions would be given on the assumption that this project would be done in vscode
 
+### ARCHITECTURE
+
+
+<img src="https://github.com/user-attachments/assets/73d1c00f-8c09-4f9c-8f20-db053962ffe7" width="400" height="400" />
+
 ### REQUIREMENT
 * Install `AWS ToolKit` in the Extention.
 * Ensure that Terraform is also installed in the Extention
