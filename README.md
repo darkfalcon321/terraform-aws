@@ -1,6 +1,6 @@
 # terraform-aws
 
-This project outlines how terraform is used to deploy Cloud resources; particularly AWS. The instance would have a script to be run upon instance initialization in `userdata.tpl`. The instance type can be changed depending upon the AMI in `datasources.tf`. Some of the instructions would be given on the assumption that this project would be done in vscode
+This project outlines how terraform is used to deploy Cloud resources in AWS. The instance would run a script upon its initialization from file `userdata.tpl`. The instance type can be changed depending upon the AMI in `datasources.tf`. Some of the instructions would be given on the assumption that this project would be done in vscode
 
 ### ARCHITECTURE
 
